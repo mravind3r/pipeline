@@ -1,4 +1,4 @@
-pipelineJob("my first seed job"){
+job("my first seed job"){
     stage("first"){
         echo "hello world"
     }
