@@ -1,5 +1,5 @@
 job("my first seed job"){
-    stage("first"){
-        echo "hello world"
+    steps{
+        echo( "ehllo world")
     }
 }
