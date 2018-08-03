@@ -1,6 +1,5 @@
-pipeline{
+pipelineJob(jobName){
     agent any
-
     stages{
         stage("first"){
             steps{
